@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&family=Urbanist:wght@800&display=swap');
+
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+font-family: sans-serif;
+font-size: 20px;
+}
+.navigation_bar
+{
+position: fixed;
+top: 0px;
+left: 0px;
+width: 100%;
+background: transparent;
+backdrop-filter: blur(20px);
+z-index: 5;
+}
+.mymenus
+{
+font-weight: bolder;
+color: black;
+}
+.mymenus:hover
+{
+text-decoration: underline 2px solid royalblue;
+color: royalblue;
+}
+.logo
+{
+font-family: Arial Black;
+font-size: 30px;
+color: royalblue;
+}
+.allsections
+{
+position: relative;
+width: 100%;
+/* top: 30px;*/
+}
+.section
+{
+width: 100%;
+height: 100vh;
+border: 5px solid black;
+}
+
+html
+{
+scroll-behavior: smooth;
+}
+/--------------------------------------Home Section-------------------------/
+
+.home-section
+{
+border: none;
+width: 100%;
+background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR16yFEeBAwLaOhWZQmN9SNzH3bRPRxF__jw7o9yYT9fw&s");
+background-repeat: no-repeat;
+background-size: 40%;
+background-position: 90% 0% ;
+height: 600px;
+position: relative;
+bottom: 50px;
+}
+.myinfo
+{
+height: 450px;
+width: 50%;
+margin: 10% 4%;
+top: 20px;
+}
+.info-home
+{
+font-size: 30px;
+font-family: Elephant;
+}
+.myname
+{
+font-size: 50px;
+}
+.fsjd
+{
+font-family: Elephant;
+font-size: 30px;
+color: darkred;
+}
+.rsm
+{
+height: 60px;
+width: 120px;
+margin: 20px 30px;
+border: none;
+background-color: royalblue;
+color: white;
+border-radius: 10px;
+font-family: Arial Black;
+/* margin-bottom: 900%;*/
+}
+.rsm:hover
+{
+background-color: white;
+color: royalblue;
+border: 3px solid royalblue;
+transform: scale(1.1);
+}
+/--------------------------------------End Home sec--------------------------------/
+.about-section
+{
+background-color:hotpink;
+border: none;
+width: 100%;
+height: 500px;
+display: flex;
+padding: 20px;
+}
+.aboutsect
+{
+height: 500px;
+}
+.myimg
+{
+width: 40%;
+}
+.cobj
+{
+padding: 30px 30px;
+width: 47%;
+}
+.carrer
+{
+text-align: justify;
+font-size: 22px;
+margin-top: 50px;
+text-indent: 20%;
+font-family: sans-serif;
+font-weight: bolder;
+line-height: 40px;
+}
+/----------------------------- end About section -------------------------------/
+.Skills-section
+{
+height: 600px;
+padding: 20px;
+border: none;
+}
+.rows td
+{
+padding: 10px;
+}
+.tbl
+{
+margin-top: 50px;
+}
+.skill-head{
+font-size: 25px;
+margin-bottom: 30px;
+font-family: Arial Black;
+color: orangered;
+font-variant: small-caps;
+text-decoration: underline 3px solid orangered;
+}
+.skillset{
+font-weight: bolder;
+font-family: sans-serif;
+
+}
+.rows td div
+{
+height: 200px;
+border-radius: 20px;
+}
+.rows td div:hover
+{
+box-sizing: 0px 0px 10px grey;
+
+}
+/----------------------- end Skills-section ------------------------------/
+.Project-section
+{
+border: none;
+padding: 20px;
+height: 1200px;
+}
+.all-projects
+{
+margin-top: 40px;
+}
+.card-title
+{
+color: orangered;
+font-weight: bolder;
+}
+.card-img-top
+{
+height: 200px;
+width: 200px;
+}
+.contact-section
+{
+border: none;
+background-color: whitesmoke;
+padding: 30px;
+}
+.cnt-tbl
+{
+margin-top: 30px;
+}
+/---------------end of project section-----/
+.contact-section{
+border: none;
+background-color:lightgray;
+padding: 30px;
+}
+.section contact-section{
+	display: flex;
+	
+}
+.info{
+	display: flex;
+	width: 50%;
+	height: 100%;
+}
+.form{
+	height: 60vh;
+	width: 50%;
+}
+.cnt{
+	display: inline-block;
+	margin-left: 50px;
+	text-align: left	;
+}
+.cnt2{
+	margin-top: 50px;
+
+}
